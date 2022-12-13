@@ -1,0 +1,158 @@
+body {
+    font-family:Hevetica;
+    color:seashell;
+    background-color:black;
+    opacity:0.9;
+}
+
+.logo {
+  margin-right:10px;
+
+}
+
+.menu{
+  padding: 69px;
+}
+
+header {
+  display:fixed;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 1px solid seashell;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+  padding: 29px;
+  text-decoration: underline;
+}
+
+h1{
+  text-align: center;
+  margin: 0px;
+  font-family: Helvetica;
+  font-size: 40px;
+  background-color: black;
+  color: seashell;
+  padding:10px;
+}
+
+h4{
+  text-align: center;
+  margin: 0px;
+  font-family: Helvetica;
+  font-size: 28px;
+  background-color: black;
+  color: seashell;
+  padding:10px;
+}
+
+h2{
+  text-align: center;
+  margin: 20px;
+  font-family: Helvetica;
+  font-size: 40px;
+  color: seashell;
+}
+
+
+.template{
+  background-image: url(img-mission-background.jpeg);
+  background-repeat:no-repeat;
+  background-size:cover;
+ width: 95%;
+ height: 700px;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  }
+
+  .template div {
+    width: 100%;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+
+.container img{
+  height:200px;
+  width:300px;
+  margin-left: 15px;
+margin-bottom: 5px;
+}
+
+.container2{
+  display: flex;
+  justify-content: center;
+}
+
+.container2 img{
+height:200px;
+width:300px;
+margin-left: 15px;
+margin-bottom: 5px;
+}
+h5 {
+  text-align: center;
+  margin: 20px;
+  font-family: Helvetica;
+  font-size: 20px;
+  color: seashell;
+  background-color:black;
+}
+
+h3,p {
+  text-align: center;
+  margin:0;
+  font-family: Helvetica;
+  font-size: 25px;
+  color: seashell;
+  background-color:black; 
+  padding: 3px;
+  width:300px;
+  height:70px;
+  opacity:1;
+}
+
+
+.locations{
+  background-image:url("img-locations-background.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  width:95%;
+  height: 700px;
+  display: grid;
+  grid-template-rows: auto auto;
+  margin:auto;
+}
+
+.locations div {
+  margin: 40px;
+}
+
+.linha2 {
+  display:flex;
+  justify-content:center;
+}
+
+.footer {
+  text-align:left;
+  margin-left:20px;
+  font-size:22px;
+  color:seashell;
+  font-family:Helvetica;
+}
